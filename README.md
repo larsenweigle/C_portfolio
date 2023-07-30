@@ -2,12 +2,13 @@
 
 This repository contains implementation of a basic heap allocator in C. It is organized around two main files:
 
-1. **allocator.h**: Contains all function declarations and data structures required for heap allocator.
-2. **explicit.c**: Contains all function definitions, and is responsible for the actual implementation.
+1. **implicit.c**: Implementation of the implicit heap allocator.
+2. **explicit.c**: Implementation of the explicit heap allocator.
 
 ## Description
+The implicit heap allocator builds out a very simple heap allocator with little optimizaton. 
 
-The heap allocator implementation utilizes an explicit free list to manage memory. Headers contain the payload of each memory block, along with a list of all free blocks. This allows for efficient storage of memory, as well as quick access to free memory when required.
+The explicit heap allocator implementation utilizes an explicit free list to manage memory. Headers contain the payload of each memory block, along with a list of all free blocks. This allows for efficient storage of memory, as well as quick access to free memory when required.
 
 ## Functions
 
