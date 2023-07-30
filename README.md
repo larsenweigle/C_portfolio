@@ -21,7 +21,7 @@ Here's a brief overview of some of the main functions in this repository:
 
 ## Usage
 
-After cloning this repository, compile the program using a C compiler like `gcc`, and run the program:
+After cloning this repository, compile the program using a C compiler like `gcc` and run the program:
 
 ```bash
 gcc -o allocator explicit.c
